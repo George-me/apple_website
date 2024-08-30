@@ -4,8 +4,8 @@ import { navLists } from "../constants";
 
 const NavBar = () => {
   return (
-    <header className="w-full py-5 px-5">
-      <nav className="flex justify-between lg:justify-around ">
+    <header className="py-5 px-5">
+      <nav className="flex lg:justify-around justify-between">
         <img src={appleImg} alt="Apple" width={14} height={18} />
         <div className="flex max-sm:hidden">
           {navLists.map((nav, index) => (
